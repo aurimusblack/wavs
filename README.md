@@ -1,7 +1,7 @@
 # wavs
 scans for xss , openredirect , bruteforces directorys
 *************************************************
-*    Web Application Vulnerability Scanner      *
+    Web Application Vulnerability Scanner      
 *************************************************
 
 installation 
